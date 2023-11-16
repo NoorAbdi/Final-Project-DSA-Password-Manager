@@ -1,4 +1,4 @@
-Password Manager in C++
+# Password Manager in C++
 This repository contains a password manager program implemented in C++. The program securely stores and manages user passwords and provides functionalities to add, retrieve, update, and delete passwords for different accounts.
 
 Features
