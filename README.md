@@ -1,20 +1,16 @@
-# Password Manager in C++
-This repository contains a password manager program implemented in C++. The program securely stores and manages user passwords and provides functionalities to add, retrieve, update, and delete passwords for different accounts.
+# DSA Password Manager
+
+Welcome to the DSA Password Manager repository!
+
+This project serves as a comprehensive Password Manager, designed and implemented using C++. It leverages the robustness of the Caesar Cipher algorithm for encryption and employs linked lists, classes, and data flushing to ensure data security and efficient management.
 
 ## Features
-- Secure Storage: Passwords are encrypted and stored securely to maintain user privacy.
-- Add, Retrieve, Update, Delete: Users can add new passwords, retrieve existing ones, update, and delete passwords for various accounts.
-- User Authentication: Access to the password manager is protected by user authentication (username and master password).
-- Password Generation: Option to generate strong and random passwords for new accounts.
-- Encrypted Storage: Passwords are encrypted using [encryption method] to enhance security.
-  
-## Prerequisites
+- **Encryption**: Utilizes the Caesar Cipher algorithm for robust data encryption.
+- **Linked List Implementation**: Employs linked lists for optimized data organization.
+- **Class Implementation**: Utilizes classes for structured and organized code.
+- **Add, Retrieve, Update, Delete**: Users can add new passwords, retrieve existing ones, update, and delete passwords for various accounts.
+- **User Authentication**: Access to the password manager is protected by user authentication (username and master password).
 
-To compile and run this password manager program, you'll need:
-
-- C++ compiler (e.g., g++) installed on your system.
-- A text editor or integrated development environment (IDE).
-  
 ## Getting Started
 
 1. Clone this repository to your local machine:
@@ -44,7 +40,6 @@ g++ password_manager.cpp -o password_manager
 Copy code
 ./password_manager
 ```
-
 ## Usage
 
 - Upon running the program, follow the on-screen instructions to create an account, log in, and manage passwords.
@@ -53,14 +48,13 @@ Copy code
   
 ## Security Note
 
-- The passwords are encrypted using [encryption method]. It is advised not to share your master password and to keep it strong and unique.
+- The passwords are encrypted using Caesar Cipher Algorithm. It is advised not to share your master password and to keep it strong and unique.
 - This program provides basic encryption for educational purposes and might not be suitable for high-security requirements.
-  
-## Contributions
 
-Contributions to enhance security, add features, or improve the codebase are welcome! Feel free to submit pull requests or open issues.
+## Contributing
+Contributions are welcome! Feel free to fork this repository, make your changes, and create a pull request. For major changes, please open an issue first to discuss the proposed updates.
 
-## License
+## Acknowledgments
+This project was developed as a final assignment for the Data Structures & Algorithms course, aiming to showcase the practical implementation of DSA concepts in real-world applications.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+Thank you for visiting the repository!
